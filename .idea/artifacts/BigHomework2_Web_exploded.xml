@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="BigHomework2:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/BigHomework2_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="BigHomework2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BigHomework2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="lib1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

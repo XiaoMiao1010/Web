@@ -1,0 +1,85 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    background: none;
+}
+
+body {
+    font-size: 14px;
+    font-family: '微软雅黑';
+}
+
+a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.head {
+    width: 980px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.head .left {
+    float: left;
+}
+
+.head .right {
+    float: right;
+}
+
+#nav {
+    width: 100%;
+    height: 35px;
+    background-color: #000;
+}
+
+.nav {
+    width: 980px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.nav a:hover {
+    background: #e3da35;
+}
+
+.nav .color_in {
+    background-color: #e3da35;
+}
+
+.zhuce_head {
+    width: 656px;
+    height: 432px;
+    background: url(../images/005.jpg);
+    margin: 0 auto;
+
+}
+
+.yonghu, .mima, .queren, .xueli, .xingbie {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.huanyin {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.queren {
+    cursor: pointer;
+}

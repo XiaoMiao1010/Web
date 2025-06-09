@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(240, 239, 243);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container {
+    width: 375px;
+    height: 520px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.container form {
+    width: 100%;
+    border: 1px solid rgb(82, 74, 235);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container form input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+}
+
+.container form i {
+    padding-left: 10px;
+}
+
+.product-list {
+    padding: 20px 0;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+
+.product img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product .p-details {
+    padding-left: 15px;
+}
+
+.product .p-details h2 {
+    font-size: 20px;
+    color: #1d1d1d;
+}
+
+.product .p-details h3 {
+    font-size: 20px;
+    color: #1d1d1d;
+}
+
+.head {
+    width: 980px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.head .left {
+    float: left;
+}
+
+.head .right {
+    float: right;
+}
+
+#nav {
+    width: 100%;
+    height: 45px;
+    background-color: #000;
+}
+
+.nav {
+    width: 980px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+    color: aqua;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.nav a:hover {
+    background: #e3da35;
+}
+
+.nav .color_in {
+    background-color: #e3da35;
+}
+
+/*下拉菜单*/
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(231, 229, 75);
+    z-index: 1; /* 设置一个较高的 z-index */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block; /* 悬浮在.dropdown上时显示下拉菜单 */
+}
+
+.dropdown-menu ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    text-align: center;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f1f1f1;
+}
+
+/*登录注册隐藏*/
+.nav .bhidden {
+    display: none;
+}
+
+/*加入购物车*/
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f2f2f2;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown-menu ul li {
+    padding: 8px 16px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.p-details {
+    margin-top: 10px;
+}
+
+.add-to-cart {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #ff3d30;
+}

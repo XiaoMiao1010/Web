@@ -1,0 +1,156 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    outline: none;
+    background: none;
+}
+
+body {
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+
+a:link,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.head {
+    width: 980px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.head .left {
+    float: left;
+}
+
+.head .right {
+    float: right;
+}
+
+#nav {
+    width: 100%;
+    height: 35px;
+    background-color: #000;
+}
+
+.nav {
+    width: 980px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.nav a:hover {
+    background: #e3da35;
+}
+
+.nav .color_in {
+    background-color: #e3da35;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+    text-align: center;
+    width: 1400px;
+}
+
+th,
+td {
+    border: 1px solid #cadeff;
+}
+
+th {
+    background: #e2f2ff;
+    border-top: 3px solid #a7cbff;
+    height: 30px;
+}
+
+td {
+    padding: 10px;
+    color: #444;
+}
+
+tbody tr:hover {
+    background: RGB(238, 246, 255);
+}
+
+.checkbox {
+    width: 60px;
+}
+
+.goods {
+    width: 300px;
+}
+
+.goods span {
+    width: 180px;
+    margin-top: 20px;
+    text-align: left;
+    float: left;
+}
+
+.price {
+    width: 100px;
+}
+
+.count {
+    width: 90px;
+}
+
+.count .add,
+.count input,
+.count .reduce {
+    float: left;
+    margin-right: -1px;
+    position: relative;
+    z-index: 0;
+}
+
+.count .add,
+.count .reduce {
+    height: 23px;
+    width: 17px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 23px;
+    color: #444;
+}
+
+.count .add:hover,
+.count .reduce:hover {
+    color: #f50;
+    z-index: 3;
+    border-color: #f60;
+    cursor: pointer;
+}
+
+.count input {
+    width: 50px;
+    height: 15px;
+    line-height: 15px;
+    border: 1px solid #aaa;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    z-index: 2;
+}
